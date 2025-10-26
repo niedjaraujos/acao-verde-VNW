@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url(img/Banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+header p {
+  font-size: 1.5rem;
+  width: 55vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+header button {
+  background-color: #66bb6a;
+  width: 405px;
+  height: 90px;
+  border-radius: 68px;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+header .box-header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  padding: 150px 40px 40px 40px;
+  text-align: center;
+}
+
+.cards {
+  background-color: #f1f8e9;
+  padding: 50px 20px;
+  text-align: center;
+}
+.cards .card {
+  width: 308px;
+  height: 426px;
+  border-radius: 15px;
+  background-color: white;
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.cards .card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.cards .card h3 {
+  font-size: 1.75rem;
+  margin: 14px 0;
+}
+.cards .card p {
+  font-size: 1.14rem;
+  padding-inline: 16px;
+}
+.cards .card button {
+  background-color: #66bb6a;
+  border: none;
+  width: 150px;
+  height: 49px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 38px;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+  background-color: #e8f5e9;
+  display: block;
+  text-align: center;
+  padding: 50px;
+}
+.form h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.form p {
+  color: #767676;
+  font-size: 1rem;
+  width: 690px;
+  margin: 20px auto;
+}
+.form form {
+  margin: auto;
+}
+.form form input,
+.form form select {
+  width: 695px;
+  height: 80px;
+  border: none;
+  border-radius: 25px;
+  margin: 10px 50px;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #8e8e8e;
+  padding: 0 30px;
+}
+.form form input[type=submit] {
+  background-color: #66bb6a;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #66bb6a;
+  text-align: center;
+  height: 12vh;
+}
+footer p {
+  color: white;
+  padding-top: 35px;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
