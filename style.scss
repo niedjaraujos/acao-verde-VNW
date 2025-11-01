@@ -19,13 +19,11 @@ header {
   h1 {
     font-size: 6rem;
     font-weight: 700;
-    margin-bottom: 15px;
   }
   p {
     font-size: 1.5rem;
     width: 55vw;
-    margin: 0 auto;
-    margin-bottom: 25px;
+    margin: 60px auto;
     font-weight: bold;
   }
   button {
@@ -54,12 +52,12 @@ header {
   text-align: center;
 
   .card {
-    width: 308px;
-    height: 426px;
+    width: 310px;
+    height: 430px;
     border-radius: 15px;
     background-color: white;
     display: inline-block;
-    margin: 15px;
+    margin: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 
     img {
@@ -73,7 +71,7 @@ header {
     }
     p {
       font-size: 1.14rem;
-      padding-inline: 16px;
+      padding-inline: 20px;
     }
 
     button {
@@ -118,12 +116,16 @@ header {
       height: 80px;
       border: none;
       border-radius: 25px;
-      margin: 10px 50px;
+      margin: 18px 50px;
       outline: none;
       font-size: 1.5rem;
       font-weight: 600;
-      color: #8e8e8e;
       padding: 0 30px;
+      appearance: none;
+
+      &::placeholder {
+        color: #8e8e8e;
+      }
     }
     input[type='submit'] {
       background-color: #66bb6a;
@@ -132,6 +134,14 @@ header {
     }
   }
 }
+select {
+  background-image: url('/img/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  cursor: pointer;
+  color: #8e8e8e;
+}
+
 footer {
   background-color: #66bb6a;
   text-align: center;
@@ -139,6 +149,6 @@ footer {
   p {
     color: white;
     padding-top: 35px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
